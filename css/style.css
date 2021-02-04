@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/banner.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+/*.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+*/
+.container {
+  width: 900;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+.container h1 {
+  color: white;
+  margin:0;
+}
+
+.container p {
+  color: white;
+  font-family: sans-serif;
+  opacity: 0.7;
+}
+
+.h2-center {
+  text-align: center;
+}
+
+.footer {
+  background-color: #2D2B2B;
+  text-align:center;
+  padding: 50px;
+  align-content: center;
+}
+
+.footer-links i {
+  margin: 5px;
+  font-family: "Font Awesome 5 Brands";
+  text-align: center;
+  display: inline-block;
+  font-size: 2rem;
+  color: #1DDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
